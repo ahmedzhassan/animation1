@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+width: 1920px;
+background-color: rgba(86, 86, 86, 0.29);
+}
+.body{
+position: relative;
+}
+.train-1{
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    margin-top: 80px;
+}
+.train-2{
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 80px;
+}
+.train-3{
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    margin-top: 320px;
+}
+.train-4{
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 50%;
+}
+.train-5{
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    margin-top: 550px;
+}
+.train-6{
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 550px;
+
+}
+.train-7{
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    margin-top: 200px;
+    margin-top: 770px;
+}
+.train-8{
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 50%;
+    margin-top: 770px;
+}
+/* /////////////////////////////////////////////////////////////////////////////// */
+.op-1{
+    width: 500px;
+    height: 180px;
+    position: absolute;
+    margin-left: 1400px;
+    margin-top: 50px;
+    animation-name: change ;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.op-1 .img1{
+    width: 220px;
+    height: 150px; 
+    float: left;
+}
+.op-1 .img2{
+    width: 180px;
+    height: 150px; 
+    float: left;
+}
+.op-1 .img3{
+    width: 100px;
+    height: 80px; 
+    float: left;
+    margin-top: 60px;
+}
+@keyframes change{
+    0%{
+    right: 0;
+      
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+       right:  1400px;
+   
+    opacity: 0;
+    }
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+.op-2{
+    width: 500px;
+    height: 180px;
+    position: absolute;
+    margin-left: 0;
+    margin-top: 290px;
+    animation-name: op-2 ;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    opacity: 0;
+}
+
+.op-2 .img1{
+    width: 100px;
+    height: 80px; 
+    float: left;
+    margin-top: 60px;
+}
+.op-2 .img2{
+    width: 180px;
+    height: 150px; 
+    float: left;
+}
+.op-2 .img3{
+    width: 220px;
+    height: 150px; 
+    float: left;
+}
+@keyframes op-2{
+    0%{
+    left: 0;
+    opacity: 1;
+      
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+       left:  1400px;
+   
+    opacity: 0;
+    }
+}
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+.op-3{
+    width: 500px;
+    height: 180px;
+    position: absolute;
+    margin-left: 1400px;
+    margin-top: 520px;
+    animation-name: op-3 ;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+    opacity: 0;
+}
+
+.op-3 .img1{
+    width: 220px;
+    height: 150px; 
+    float: left;
+}
+.op-3 .img2{
+    width: 180px;
+    height: 150px; 
+    float: left;
+}
+.op-3 .img3{
+    width: 100px;
+    height: 80px; 
+    float: left;
+    margin-top: 60px;
+}
+@keyframes op-3{
+    0%{
+    right: 0;
+    opacity: 1;
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+       right:  1400px;
+   
+    opacity: 0;
+    }
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+.op-4{
+    width: 500px;
+    height: 180px;
+    position: absolute;
+    margin-top: 740px;
+    animation-name: op-4 ;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+    opacity: 0;
+}
+
+.op-4 .img1{
+    width: 100px;
+    height: 80px; 
+    float: left;
+    margin-top: 60px;
+}
+.op-4 .img2{
+    width: 180px;
+    height: 150px; 
+    float: left;
+}
+.op-4 .img3{
+    width: 220px;
+    height: 150px; 
+    float: left;
+}
+@keyframes op-4{
+    0%{
+    left: 0;
+    opacity: 1;
+    }
+    100%{
+       left:  1400px;
+   
+    opacity: 1;
+    }
+}
